@@ -1,0 +1,19 @@
+1.
+Program takes in a text file, creates a flat map of each line in the file, then makes a map of all the characters in those lines, reduces by key to consolidate the character frequency count, and sorts that frequency list in order.
+We then find the number of steps in the alphabet between this character and the most common letter in the English language (starting with 'e', then testing other letters if not a match).
+Every letter in the encrypted text is shifted accordingly (numbers and special characters are left alone).
+The shifted text is printed out.
+If at least 75% of the words are valid English words, then it is decrypted accurately
+
+
+2) The results for question 2 is in the screenshots
+
+2.2  Only the alpabetic characters are altered.
+The dictionary in the program checks the implementation and removes special characters before checking if a word is a valid English word, improving its accuracy.
+Note: all words are immediately converted to lowercase early in the program, and remain lowercase throughout, including when saved to a decrypted text file.
+Note: while indents and large spacing remain in the decrypted file, everything is consolidated down to one line 
+
+3. Sources:
+Encrypted-1 - https://studfile.net/preview/393909/page:78/
+Encrypted-2 - https://books.google.com/books?id=7x9yw5DQIOUC&pg=PA92&lpg=PA92&dq=times+of+peace,+are+of+every-day+occurrence+between+contending+armies&source=bl&ots=DkxSINdPlO&sig=ACfU3U2CWQf9gBcVwRpBMFrSjgq3QEDIHg&hl=en&sa=X&ved=2ahUKEwiFkbK53-7nAhXySt8KHSXZBa4Q6AEwAHoECAQQAQ#v=onepage&q=times%20of%20peace%2C%20are%20of%20every-day%20occurrence%20between%20contending%20armies&f=false
+Encrypted-3 - https://www.imsdb.com/scripts/Great-Gatsby,-The.html
